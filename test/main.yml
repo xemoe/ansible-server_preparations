@@ -1,0 +1,7 @@
+---
+- name: testing::server_preparations
+  hosts: mainbox
+  become: yes
+  roles:
+    - role: xemoe.server_preparations
+
